@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body onload="template()">
+        
+        <div id="container">
+            <p id="work" class="label">Work:</p>
+            <p id="break" class="label">Break:</p>
+            
+
+
+            <!--Work Timer-->
+            <div  id="work-timer" class="timer"> 
+                <p id="w_minutes"></p>
+                <p class="semicolon">:</p>
+                <p id="w_seconds"></p>
+            </div>
+
+
+            <!--Break timer-->
+
+            <div class="timer" id="break-timer">
+                <p id="b_minutes"></p>
+                <p class="semicolon">:</p>
+                <p id="b_seconds"></p>
+            </div>
+
+            
+
+            <!--Buttons-->
+
+            
+                <button id="start" class="btn">Start</button>
+                <button id="stop" class="btn">Stop</button>
+                <button id="reset" class="btn"><a href="index.html" class="btn">reset</a></button>
+               
+            
+
+        </div>
+
+        <script src="main.js"></script>
+
+
+    </body>
+</html>
